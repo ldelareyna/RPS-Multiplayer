@@ -1,0 +1,65 @@
+body {
+	background-image: url("../Images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+h2 {
+	font-size: 30px;
+}
+#playerInfo, #playerTurn {
+	margin: auto;
+	width: 20%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#container {
+	width: 75%;
+	margin: auto;
+}
+#player1, #results, #player2 {
+	float: left;
+	height: 200px;
+	width: 300px;
+	border: 2px solid black;
+	margin: 26px;
+	text-align: center;
+	position: relative;
+}
+#chatbox {
+	clear: both;
+	width: 90%;
+	height: 200px;
+	border: 1px solid black;
+	margin: auto;
+	overflow-y: scroll;
+}
+#messageBar {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	opacity: 0.7;
+}
+#messageBox {
+	width: 94%;
+	margin-right: 5px;
+}
+#playerName {
+	width: 150px;
+	margin-right: 5px;
+}
+#p1stats, #p2stats {
+	position: absolute;
+	bottom: 0px;
+	left: 90px;
+}
+#p1choices div, #p2choices div {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+}

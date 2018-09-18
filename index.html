@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>RPS Multiplayer Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link rel="icon" href="assets/images/favicon.ico?v=1.1">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Reset.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+  	<script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+</head>
+<body>
+	<br>
+	<h1>RPS Multiplayer</h1>
+
+	
+	<div id="container">
+		<!--PLAYER 1 BOX-->
+		<div id="playerInfo"></div>
+		<div id="playerTurn"></div>
+		<div id="player1">
+			<div id="p1name">Waiting for Player 1</div>
+			<div id="p1choices"></div>
+			<div id="p1stats"></div>
+		</div>
+
+		<!--MIDDLE BOX: RESULTS-->
+		<div id="results"></div>
+
+		<!--PLAYER 2 BOX-->
+		<div id="player2">
+			<div id="p2name">Waiting for Player 2</div>
+			<div id="p2choices"></div>
+			<div id="p2stats"></div>
+		</div>
+
+		<!--CHAT BOX-->
+		<div id="chatbox"></div>
+		<form id="messageBar"><input id="messageBox" type="text"><input id="taunt" type="submit" value="Taunt"></form>
+	</div>
+
+	<!--JAVASCRIPT-->
+<script src="assets/javascript/script.js"></script>
+</body>
+</html>
